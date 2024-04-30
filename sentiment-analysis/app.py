@@ -3,7 +3,7 @@ import joblib
 import pandas as pd
 
 #model = pd.read_pickle("sentiment-model.pkl")
-model=joblib.load('sentiment-model.pkl')
+model=joblib.load('sentiment-analysis/sentiment-model.pkl')
 
 sentiment_labels={'0':'Negative','1':'Positive'}
 
