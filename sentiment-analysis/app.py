@@ -17,5 +17,5 @@ if st.button('Predict'):
     st.info(predicted_sentiment)
     print("Predicted Label:"+str(predicted_sentiment))
     predicted_sentiment_label = sentiment_labels[str(predicted_sentiment)]
-
+    st.info(predicted_sentiment)
     st.info(f"Predicted Sentiment:{predicted_sentiment_label}")
