@@ -2,9 +2,8 @@ import streamlit as st
 import joblib
 import pandas as pd
 
-mc = pd.read_pickle("file_name.pkl")
-print(mc)
-model=joblib.load('sentiment-model.pkl')
+model = pd.read_pickle("sentiment-model.pkl")
+#model=joblib.load('sentiment-model.pkl')
 
 sentiment_labels={'0':'Negative','1':'Positive'}
 
